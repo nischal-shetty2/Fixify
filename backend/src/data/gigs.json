@@ -1,0 +1,274 @@
+[
+  {
+    "userID": "605c72ef153207001f6dff6",
+    "title": "AC Repair & Maintenance",
+    "description": "I will provide expert AC repair and maintenance services for your home or office.",
+    "totalStars": 5,
+    "starNumber": 5,
+    "category": "AC Repair",
+    "price": 79,
+    "cover": "https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/6822967/pexels-photo-6822967.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Expert AC Repair & Maintenance",
+    "shortDesc": "Get your AC fixed and maintained by professionals. Fast & reliable.",
+    "deliveryTime": "1-2 days",
+    "revisionNumber": 1,
+    "features": [
+      "Free inspection",
+      "Same-day service",
+      "100% satisfaction guarantee"
+    ],
+    "sales": 10
+  },
+  {
+    "userID": "605c72ef153207001f6dff7",
+    "title": "Electrical Wiring & Appliance Installation",
+    "description": "I will install and repair electrical wiring, lighting, and home appliances.",
+    "totalStars": 4.8,
+    "starNumber": 4.8,
+    "category": "Electrical",
+    "price": 89,
+    "cover": "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/6801643/pexels-photo-6801643.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Expert Electrical Services",
+    "shortDesc": "Electrical wiring and appliance repairs with guaranteed safety.",
+    "deliveryTime": "2-3 days",
+    "revisionNumber": 1,
+    "features": [
+      "Certified electricians",
+      "Affordable pricing",
+      "Emergency services"
+    ],
+    "sales": 12
+  },
+  {
+    "userID": "605c72ef153207001f6dff8",
+    "title": "Plumbing Repairs & Installations",
+    "description": "I will fix leaks, unclog drains, and install new plumbing systems.",
+    "totalStars": 5,
+    "starNumber": 5,
+    "category": "Plumbing",
+    "price": 65,
+    "cover": "https://images.pexels.com/photos/2061446/pexels-photo-2061446.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/2061446/pexels-photo-2061446.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/7331354/pexels-photo-7331354.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Reliable Plumbing Services",
+    "shortDesc": "Fix leaks, blockages, and install new plumbing systems with ease.",
+    "deliveryTime": "2 days",
+    "revisionNumber": 1,
+    "features": [
+      "Emergency plumbing",
+      "Affordable rates",
+      "Satisfaction guaranteed"
+    ],
+    "sales": 20
+  },
+  {
+    "userID": "605c72ef153207001f6dff9",
+    "title": "Carpentry & Furniture Repair",
+    "description": "I will repair, build, and install custom furniture, doors, and more.",
+    "totalStars": 4.7,
+    "starNumber": 4.7,
+    "category": "Carpentry",
+    "price": 90,
+    "cover": "https://images.pexels.com/photos/7635914/pexels-photo-7635914.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/7635914/pexels-photo-7635914.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/5823291/pexels-photo-5823291.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Custom Carpentry & Furniture Repair",
+    "shortDesc": "Get high-quality carpentry services for your home and office.",
+    "deliveryTime": "5 days",
+    "revisionNumber": 2,
+    "features": ["Custom designs", "Fast service", "Satisfaction guaranteed"],
+    "sales": 15
+  },
+  {
+    "userID": "605c72ef153207001f6dffa",
+    "title": "Pest Control Services",
+    "description": "I will eliminate pests and provide pest control solutions for your home.",
+    "totalStars": 5,
+    "starNumber": 5,
+    "category": "Pest Control",
+    "price": 75,
+    "cover": "https://images.pexels.com/photos/8593699/pexels-photo-8593699.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/8593699/pexels-photo-8593699.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/7202042/pexels-photo-7202042.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Professional Pest Control",
+    "shortDesc": "Eliminate pests and protect your home from infestations.",
+    "deliveryTime": "1 day",
+    "revisionNumber": 1,
+    "features": [
+      "Eco-friendly methods",
+      "Fast & effective",
+      "Guaranteed results"
+    ],
+    "sales": 25
+  },
+  {
+    "userID": "605c72ef153207001f6dffb",
+    "title": "House Cleaning & Deep Cleaning",
+    "description": "I will clean your home or office, including deep cleaning and sanitizing.",
+    "totalStars": 4.9,
+    "starNumber": 4.9,
+    "category": "Cleaning",
+    "price": 50,
+    "cover": "https://images.pexels.com/photos/9202045/pexels-photo-9202045.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/9202045/pexels-photo-9202045.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/5853895/pexels-photo-5853895.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Expert House Cleaning Services",
+    "shortDesc": "Professional home and office cleaning with deep cleaning options.",
+    "deliveryTime": "1-2 days",
+    "revisionNumber": 2,
+    "features": [
+      "Eco-friendly products",
+      "Fast & thorough",
+      "Affordable pricing"
+    ],
+    "sales": 30
+  },
+  {
+    "userID": "605c72ef153207001f6dffc",
+    "title": "HVAC System Installation & Repair",
+    "description": "I will install, maintain, and repair HVAC systems to ensure your comfort.",
+    "totalStars": 5,
+    "starNumber": 5,
+    "category": "HVAC",
+    "price": 120,
+    "cover": "https://images.pexels.com/photos/4005674/pexels-photo-4005674.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/4005674/pexels-photo-4005674.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/5843924/pexels-photo-5843924.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Professional HVAC Services",
+    "shortDesc": "Install, repair, and maintain HVAC systems for perfect comfort all year round.",
+    "deliveryTime": "3-5 days",
+    "revisionNumber": 1,
+    "features": [
+      "Licensed professionals",
+      "Affordable pricing",
+      "Emergency services"
+    ],
+    "sales": 10
+  },
+  {
+    "userID": "605c72ef153207001f6dffd",
+    "title": "Appliance Repair & Installation",
+    "description": "I will repair and install home appliances like refrigerators, washing machines, and microwaves.",
+    "totalStars": 4.7,
+    "starNumber": 4.7,
+    "category": "Appliance Repair",
+    "price": 70,
+    "cover": "https://images.pexels.com/photos/5823051/pexels-photo-5823051.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/5823051/pexels-photo-5823051.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/3687592/pexels-photo-3687592.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Expert Appliance Repair",
+    "shortDesc": "Get your home appliances repaired or installed with professional services.",
+    "deliveryTime": "2 days",
+    "revisionNumber": 1,
+    "features": ["Fast service", "Certified technicians", "Affordable rates"],
+    "sales": 18
+  },
+  {
+    "userID": "605c72ef153207001f6dffe",
+    "title": "Electrical Panel Upgrades",
+    "description": "I will upgrade and install new electrical panels and circuit breakers.",
+    "totalStars": 5,
+    "starNumber": 5,
+    "category": "Electrical",
+    "price": 99,
+    "cover": "https://images.pexels.com/photos/1835982/pexels-photo-1835982.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/1835982/pexels-photo-1835982.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/1824737/pexels-photo-1824737.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Electrical Panel Upgrades",
+    "shortDesc": "Upgrade your electrical panel for enhanced safety and efficiency.",
+    "deliveryTime": "3 days",
+    "revisionNumber": 1,
+    "features": [
+      "Licensed electricians",
+      "Affordable pricing",
+      "Emergency services"
+    ],
+    "sales": 8
+  },
+  {
+    "userID": "605c72ef153207001f6dfff",
+    "title": "Drywall Installation & Repair",
+    "description": "I will install, patch, and repair drywall in your home or office.",
+    "totalStars": 4.6,
+    "starNumber": 4.6,
+    "category": "Construction",
+    "price": 80,
+    "cover": "https://images.pexels.com/photos/5627993/pexels-photo-5627993.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/5627993/pexels-photo-5627993.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/2215733/pexels-photo-2215733.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Drywall Installation & Repair",
+    "shortDesc": "We provide high-quality drywall repair and installation services.",
+    "deliveryTime": "4 days",
+    "revisionNumber": 2,
+    "features": [
+      "Affordable pricing",
+      "Experienced workers",
+      "Satisfaction guaranteed"
+    ],
+    "sales": 12
+  },
+  {
+    "userID": "605c72ef153207001f70000",
+    "title": "Handyman Services for Repairs & Installations",
+    "description": "I will assist you with minor home repairs, installations, and improvements.",
+    "totalStars": 4.9,
+    "starNumber": 4.9,
+    "category": "Handyman",
+    "price": 55,
+    "cover": "https://images.pexels.com/photos/5370955/pexels-photo-5370955.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/5370955/pexels-photo-5370955.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/1435731/pexels-photo-1435731.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Expert Handyman Services",
+    "shortDesc": "Get your home repairs and installations done quickly and affordably.",
+    "deliveryTime": "2 days",
+    "revisionNumber": 1,
+    "features": ["Quick turnaround", "Affordable", "Guaranteed satisfaction"],
+    "sales": 22
+  },
+  {
+    "userID": "605c72ef153207001f70001",
+    "title": "Building Painting Services",
+    "description": "I will handle your interior and exterior building painting needs, making your space look new.",
+    "totalStars": 5,
+    "starNumber": 5,
+    "category": "Painting",
+    "price": 85,
+    "cover": "https://images.pexels.com/photos/7411646/pexels-photo-7411646.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "images": [
+      "https://images.pexels.com/photos/7411646/pexels-photo-7411646.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/1301368/pexels-photo-1301368.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ],
+    "shortTitle": "Building Painting Services",
+    "shortDesc": "Transform your space with professional painting services.",
+    "deliveryTime": "5 days",
+    "revisionNumber": 1,
+    "features": ["High-quality paints", "Experienced painters", "Fast service"],
+    "sales": 10
+  }
+]
