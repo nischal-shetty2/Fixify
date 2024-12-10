@@ -5,11 +5,11 @@ const generateImageURL = async (image) => {
   file.append("file", image);
   file.append("upload_preset", "workhive2");
 
-  //   const { data } = await axios.post(
-  //     "https://api.cloudinary.com/v1_1/dvfmllmvt/image/upload",
-  //     file
-  //   );
-  return true;
+  const { data } = await axios.post(
+    "https://api.cloudinary.com/v1_1/dvfmllmvt/image/upload",
+    file
+  );
+  return data;
 };
 
 export default generateImageURL;

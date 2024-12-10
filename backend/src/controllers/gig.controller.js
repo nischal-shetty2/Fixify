@@ -72,7 +72,7 @@ const getGigs = async (request, response) => {
     const filters = {
       ...(userID && { userID }),
       ...(category && { category: { $regex: category, $options: "i" } }),
-      ...(search && { title: { $regex: search, $options: "i" } }),
+      ...(search && { title: { $regex: `.*${search}.*`, $options: "i" } }),
       ...((min || max) && {
         price: {
           ...(max && { $lte: max }),
