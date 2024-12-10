@@ -1,4 +1,5 @@
 const jwt = require('jsonwebtoken');
+require("dotenv").config();
 const { CustomException } = require("../utils");
 
 const authenticate = (request, response, next) => {
