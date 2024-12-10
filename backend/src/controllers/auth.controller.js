@@ -39,12 +39,12 @@ const authRegister = async (request, response) => {
     });
   } catch (message) {
     console.log(message);
-    // if (message.includes("E11000")) {
-    //   return response.status(400).send({
-    //     error: true,
-    //     message: "Choose a unique username!",
-    //   });
-    // }
+    if (message.includes("E11000")) {
+      return response.status(400).send({
+        error: true,
+        message: "Choose a unique username!",
+      });
+    }
 
     return response.status(500).send({
       error: true,

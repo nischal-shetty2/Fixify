@@ -1,5 +1,5 @@
-const CustomException = require('./CustomException');
+const CustomException = require("./CustomException");
 
 module.exports = {
-    CustomException
-}
+  CustomException,
+};
