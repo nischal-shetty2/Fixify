@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="home">
       <Featured />
-      <TrustedBy />
+      {/* <TrustedBy /> */}
       <Slide slidesToShow={5}>
         {cards.map((card) => (
           <CategoryCard key={card.id} data={card} />
@@ -22,49 +22,46 @@ const Home = () => {
       <div className="features">
         <div className="container">
           <div className="item">
-            <h1>A whole world of Servicing at your fingertips</h1>
+            <h1>One-Stop Solution for All Your Service Needs</h1>
             <div className="title">
               <img src="./media/check.png" alt="check" />
-              <h6>The best for every budget</h6>
+              <h6>Verified Professionals</h6>
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates,
-              just project-based pricing.
+              Find high-quality service providers carefully vetted for your home
+              and business maintenance needs.
             </p>
             <div className="title">
               <img src="./media/check.png" alt="check" />
-              <h6>Quality work done quickly</h6>
+              <h6>Instant Booking</h6>
             </div>
             <p>
-              Find the right freelancer to begin working on your project within
-              minutes.
+              Book reliable technicians, mechanics, and service providers
+              instantly with just a few clicks.
             </p>
             <div className="title">
               <img src="./media/check.png" alt="check" />
-              <h6>Protected payments, every time</h6>
+              <h6>Transparent Pricing</h6>
             </div>
             <p>
-              Always know what you'll pay upfront. Your payment isn't released
-              until you approve the work.
+              Clear, upfront pricing for all services. No hidden charges, pay
+              only for the service you receive.
             </p>
             <div className="title">
               <img src="./media/check.png" alt="check" />
-              <h6>24/7 support</h6>
+              <h6>24/7 Support</h6>
             </div>
             <p>
-              Questions? Our round-the-clock support team is available to help
-              anytime, anywhere.
+              Our dedicated support team is available round-the-clock to assist
+              you with any service-related queries.
             </p>
-          </div>
-          <div className="item">
-            <video src="./media/video.mp4" controls></video>
           </div>
         </div>
       </div>
 
       <div className="explore" id="explores">
         <div className="container">
-          <h1>Explore the marketplace</h1>
+          <h1>Explore Our Services</h1>
           <div className="items">
             <div className="item">
               <img
@@ -73,8 +70,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=design" className="link">
-                  Graphics & Design
+                <Link to="/gigs?category=AC Technician" className="link">
+                  AC Technician
                 </Link>
               </span>
             </div>
@@ -84,10 +81,9 @@ const Home = () => {
                 alt=""
               />
               <div className="line"></div>
-
               <span>
-                <Link to="/gigs?category=social" className="link">
-                  Digital Marketing
+                <Link to="/gigs?category=Electrician" className="link">
+                  Electrician
                 </Link>
               </span>
             </div>
@@ -98,8 +94,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=writing&Translation" className="link">
-                  Writing & Translation
+                <Link to="/gigs?category=Plumber" className="link">
+                  Plumber
                 </Link>
               </span>
             </div>
@@ -110,8 +106,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=video" className="link">
-                  Video & Animation
+                <Link to="/gigs?category=Mechanic" className="link">
+                  Mechanic
                 </Link>
               </span>
             </div>
@@ -122,8 +118,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=voice" className="link">
-                  Music & Audio
+                <Link to="/gigs?category=Carpenter" className="link">
+                  Carpenter
                 </Link>
               </span>
             </div>
@@ -134,8 +130,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=tech" className="link">
-                  Programming & Tech
+                <Link to="/gigs?category=Cleaning Services" className="link">
+                  Cleaning Services
                 </Link>
               </span>
             </div>
@@ -146,8 +142,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=seo" className="link">
-                  SEO
+                <Link to="/gigs?category=Pest Control" className="link">
+                  Pest Control
                 </Link>
               </span>
             </div>
@@ -158,8 +154,10 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=books" className="link">
-                  books
+                <Link
+                  to="/gigs?category=Home Appliance Repair"
+                  className="link">
+                  Home Appliance Repair
                 </Link>
               </span>
             </div>
@@ -170,8 +168,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=dataentry" className="link">
-                  Data Entry
+                <Link to="/gigs?category=Painting Services" className="link">
+                  Painting Services
                 </Link>
               </span>
             </div>
@@ -182,8 +180,8 @@ const Home = () => {
               />
               <div className="line"></div>
               <span>
-                <Link to="/gigs?category=photography" className="link">
-                  Photography
+                <Link to="/gigs?category=Other Home Services" className="link">
+                  Other Home Services
                 </Link>
               </span>
             </div>
@@ -191,39 +189,29 @@ const Home = () => {
         </div>
       </div>
 
-      {/* WorkHive community Component */}
       <div className="features dark" id="workhiveCommunity">
         <div className="container">
           <div className="item">
-            <h2>workhive community</h2>
+            <h2>Service Community</h2>
             <h1>
-              Connect, Collaborate & Create <span>future</span>
+              Connect, Collaborate & Solve <span>Problems</span>
             </h1>
             <p>
-              Upgrade to a curated experience packed with tools and benefits,
-              dedicated to community
+              Join our platform and experience a seamless home service ecosystem
             </p>
             <div className="title">
               <img src="./media/check.png" alt="check" />
-              <h6>
-                Connect to freelancers with shared passion and ignite innovation
-              </h6>
+              <h6>Connect with trusted service professionals near you</h6>
             </div>
             <div className="title">
               <img src="./media/check.png" alt="check" />
-              <h6>
-                Get matched with the perfect talent by a customer success
-                manager
-              </h6>
+              <h6>Get personalized service recommendations</h6>
             </div>
             <div className="title">
               <img src="./media/check.png" alt="check" />
-              <h6>
-                Manage teamwork and boost productivity with one powerful
-                workspace
-              </h6>
+              <h6>Build long-term service relationships</h6>
             </div>
-            <button>Explore WorkHive Community</button>
+            <button>Join Our Service Community</button>
           </div>
           <div className="item">
             <img

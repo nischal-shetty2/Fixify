@@ -13,12 +13,12 @@ const Featured = () => {
   };
 
   return (
-    <div className="featured">
-      <div className="container">
-        <div className="left">
+    <div className="featured text-black">
+      <div className="container ">
+        <div className="left ">
           <h1>
-            One-Stop <span>Solution</span> for All Your Service Needs, Anytime,
-            Anywhere!{" "}
+            One-Stop <span className=" text-[#1dbf73]">Solution</span> for All
+            Your Service Needs, Anytime, Anywhere!{" "}
           </h1>
           <div className="search">
             <div className="searchInput">
