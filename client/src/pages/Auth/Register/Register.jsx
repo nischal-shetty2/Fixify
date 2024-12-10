@@ -37,7 +37,7 @@ const Register = () => {
     setLoading(true);
     try {
       const { url } = await generateImageURL(image);
-      const { data } = await axiosFetch.post("/api/auth/register", {
+      const { data } = await axiosFetch.post("/auth/register", {
         ...formInput,
         image: url,
       });

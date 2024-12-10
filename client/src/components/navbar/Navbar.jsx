@@ -30,7 +30,7 @@ const Navbar = () => {
     (async () => {
       setIsLoading(true);
       try {
-        const { data } = await axiosFetch.get("/api/auth/me");
+        const { data } = await axiosFetch.get("/auth/me");
         setUser(data.user);
       } catch ({ response }) {
         localStorage.removeItem("user");
@@ -100,7 +100,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     try {
-      await axiosFetch.post("/api/auth/logout");
+      await axiosFetch.post("/auth/logout");
       localStorage.removeItem("user");
       setUser(null);
       navigate("/");

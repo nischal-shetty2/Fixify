@@ -42,7 +42,7 @@ const Login = () => {
 
     setLoading(true);
     try {
-      const { data } = await axiosFetch.post("/api/auth/login", formInput);
+      const { data } = await axiosFetch.post("/auth/login", formInput);
       localStorage.setItem("user", JSON.stringify(data.user));
       setUser(data.user);
       toast.success("Welcome back!", {
