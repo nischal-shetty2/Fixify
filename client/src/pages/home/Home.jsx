@@ -63,128 +63,20 @@ const Home = () => {
         <div className="container">
           <h1>Explore Our Services</h1>
           <div className="items">
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/graphics-design.d32a2f8.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=AC Technician" className="link">
-                  AC Technician
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/online-marketing.74e221b.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Electrician" className="link">
-                  Electrician
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/writing-translation.32ebe2e.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Plumber" className="link">
-                  Plumber
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/video-animation.f0d9d71.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Mechanic" className="link">
-                  Mechanic
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/music-audio.320af20.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Carpenter" className="link">
-                  Carpenter
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/programming.9362366.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Cleaning Services" className="link">
-                  Cleaning Services
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/business.bbdf319.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Pest Control" className="link">
-                  Pest Control
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/lifestyle.745b575.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link
-                  to="/gigs?category=Home Appliance Repair"
-                  className="link">
-                  Home Appliance Repair
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/data.718910f.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Painting Services" className="link">
-                  Painting Services
-                </Link>
-              </span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/photography.01cf943.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>
-                <Link to="/gigs?category=Other Home Services" className="link">
-                  Other Home Services
-                </Link>
-              </span>
-            </div>
+            {cards.map((card) => (
+              <div className="item" key={card.id}>
+                <img
+                  src={card.img || "https://via.placeholder.com/150"}
+                  alt={card.title}
+                />
+                <div className="line"></div>
+                <span>
+                  <Link to={`/gigs?category=${card.slug}`} className="link">
+                    {card.title}
+                  </Link>
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
