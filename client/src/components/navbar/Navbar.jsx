@@ -10,6 +10,7 @@ import "./Navbar.scss";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { cards } from "../../data";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -53,7 +54,7 @@ const Navbar = () => {
   }, []);
 
   const menuLinks = [
-    { path: "/gigs?category=design", name: "Graphics & Design" },
+    { path: "/gigs?category=design", name: cards[0].title },
     { path: "/gigs?category=video", name: "Video & Animation" },
     {
       path: "/gigs?category=writing&Translation",
@@ -194,11 +195,11 @@ const Navbar = () => {
       {(showMenu || pathname !== "/") && (
         <>
           <hr />
-          <Slider className="menu" {...settings}>
-            {menuLinks.map(({ path, name }) => (
-              <div key={name} className="menu-item">
-                <Link className="link" to={path}>
-                  {name}
+          <Slider className="menu " {...settings}>
+            {cards.map(({ title, slug }) => (
+              <div key={slug} className="menu-item">
+                <Link className="link" to={"/gigs?category=" + slug}>
+                  {title}
                 </Link>
               </div>
             ))}
