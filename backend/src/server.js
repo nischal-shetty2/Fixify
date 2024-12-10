@@ -22,13 +22,13 @@ app.use(cors({
 }));
 
 // Other Routes
-app.use('/api/auth', authRoute);
-app.use('/api/users', userRoute);
-app.use('/api/gigs', gigRoute);
-app.use('/api/conversations', conversationRoute);
-app.use('/api/orders', orderRoute);
-app.use('/api/messages', messageRoute);
-app.use('/api/reviews', reviewRoute);
+app.use('/auth', authRoute);
+app.use('/users', userRoute);
+app.use('/gigs', gigRoute);
+app.use('/conversations', conversationRoute);
+app.use('/orders', orderRoute);
+app.use('/messages', messageRoute);
+app.use('/reviews', reviewRoute);
 
 // Routes
 app.get('/', (request, response) => {
