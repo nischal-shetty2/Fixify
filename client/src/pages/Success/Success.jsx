@@ -15,7 +15,6 @@ const Success = () => {
   useEffect(() => {
     (async () => {
       try {
-        await axiosFetch.patch("/orders", { payment_intent });
         setTimeout(() => {
           navigate("/orders");
         }, 5000);
