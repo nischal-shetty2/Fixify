@@ -4,7 +4,7 @@ const TrustedBy = () => {
   return (
     <div className="trustedBy">
       <div className="container">
-        <span className=" bg-green-900 ">Trusted by:</span>
+        <span>Trusted by:</span>
         <img
           src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/meta.12b5e5c.png"
           alt=""
