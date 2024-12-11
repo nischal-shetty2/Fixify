@@ -35,26 +35,26 @@ const Featured = () => {
             <span>Popular:</span>
 
             <button>
-              <Link to="/gigs?category=social" className="link">
-                Digital Marketing
+              <Link to="/gigs?category=ac-technicians" className="link">
+                AC Technicians
               </Link>
             </button>
 
             <button>
-              <Link to="/gigs?category=wordpress" className="link">
-                WordPress
+              <Link to="/gigs?category=electricians" className="link">
+                Electricians
               </Link>
             </button>
 
             <button>
-              <Link to="/gigs?category=design" className="link">
-                Logo Design
+              <Link to="/gigs?category=plumbers" className="link">
+                Plumbers
               </Link>
             </button>
 
             <button>
-              <Link to="/gigs?category=ai" className="link">
-                AI Services
+              <Link to="/gigs?category=mechanics" className="link">
+                Mechanics
               </Link>
             </button>
           </div>
