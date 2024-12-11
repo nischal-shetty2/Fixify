@@ -173,7 +173,7 @@ const Add = () => {
               onChange={handleFormCange}
             />
 
-            <label htmlFor="">Revision Number</label>
+            <label htmlFor="">Rework number</label>
             <input
               type="number"
               name="revisionNumber"

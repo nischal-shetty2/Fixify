@@ -14,47 +14,47 @@ const Footer = () => {
           <div className="item">
             <h1>Categories</h1>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=ac-tech" className="link">
                 AC technicians
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=ele" className="link">
                 Electricians
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=plum" className="link">
                 Plumbers
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=mech" className="link">
                 mechanics
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=carp" className="link">
                 carpenters
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=tech" className="link">
                 technicians
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=pes" className="link">
                 cleaning and Pest control
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=ho" className="link">
                 home appliances repair
               </Link>
             </span>
             <span>
-              <Link to="/gigs?category=design" className="link">
+              <Link to="/gigs?category=bu" className="link">
                 building paintings
               </Link>
             </span>

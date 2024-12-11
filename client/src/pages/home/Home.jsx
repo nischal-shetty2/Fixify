@@ -19,7 +19,7 @@ const Home = () => {
           <CategoryCard key={card.id} data={card} />
         ))}
       </Slide>
-      <div className="features">
+      <div className="features ">
         <div className="container">
           <div className="item">
             <h1>One-Stop Solution for All Your Service Needs</h1>
@@ -64,18 +64,21 @@ const Home = () => {
           <h1>Explore Our Services</h1>
           <div className="items">
             {cards.map((card) => (
-              <div className="item" key={card.id}>
-                <img
-                  src={card.img || "https://via.placeholder.com/150"}
-                  alt={card.title}
-                />
-                <div className="line"></div>
-                <span>
-                  <Link to={`/gigs?category=${card.slug}`} className="link">
-                    {card.title}
-                  </Link>
-                </span>
-              </div>
+              <Link to={"/gigs?category=" + card.slug}>
+                <div className="item" key={card.id}>
+                  <img
+                    className=" object-contain"
+                    src={card.img || "https://via.placeholder.com/150"}
+                    alt={card.title}
+                  />
+                  <div className="line"></div>
+                  <span>
+                    <Link to={`/gigs?category=${card.slug}`} className="link">
+                      {card.title}
+                    </Link>
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
         </div>

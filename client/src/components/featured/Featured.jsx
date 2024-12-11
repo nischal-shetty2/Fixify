@@ -14,7 +14,7 @@ const Featured = () => {
 
   return (
     <div className="featured text-black">
-      <div className="container ">
+      <div className="container mt-10 ">
         <div className="left ">
           <h1>
             One-Stop <span className=" text-[#1dbf73]">Solution</span> for All
