@@ -1,0 +1,277 @@
+[
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f88"
+    },
+    "userID": "67590bcd3a5c1f347d210fa8",
+    "title": "Professional AC Repair & Installation",
+    "description": "Expert AC technician offering repair, maintenance, and installation services.",
+    "totalStars": 4.5,
+    "starNumber": 25,
+    "category": "AC Technician",
+    "price": 150,
+    "cover": "https://example.com/images/john.jpg",
+    "images": [
+      "https://example.com/images/ac1.jpg",
+      "https://example.com/images/ac2.jpg"
+    ],
+    "shortTitle": "AC Repair & Installation",
+    "shortDesc": "Reliable and affordable air conditioning services.",
+    "deliveryTime": "1-2 days",
+    "revisionNumber": 2,
+    "features": ["Repair", "Installation", "Maintenance", "Affordable rates"],
+    "sales": 30
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f89"
+    },
+    "userID": "67590bcd3a5c1f347d210fa9",
+    "title": "Electrician Services for Home & Office",
+    "description": "Professional electrician for wiring, installations, and repairs.",
+    "totalStars": 4.8,
+    "starNumber": 50,
+    "category": "Electrician",
+    "price": 100,
+    "cover": "https://example.com/images/jane.jpg",
+    "images": [
+      "https://example.com/images/electrician1.jpg",
+      "https://example.com/images/electrician2.jpg"
+    ],
+    "shortTitle": "Electrician Services",
+    "shortDesc": "Get your home or office wired safely and effectively.",
+    "deliveryTime": "1-3 days",
+    "revisionNumber": 1,
+    "features": [
+      "Wiring",
+      "Lighting installation",
+      "Fault repair",
+      "Affordable pricing"
+    ],
+    "sales": 45
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f8a"
+    },
+    "userID": "67590bcd3a5c1f347d210faa",
+    "title": "Plumbing Services - Installation & Repair",
+    "description": "Experienced plumber available for installation, repairs, and maintenance.",
+    "totalStars": 4.7,
+    "starNumber": 40,
+    "category": "Plumber",
+    "price": 80,
+    "cover": "https://example.com/images/alex1.jpg",
+    "images": [
+      "https://example.com/images/plumbing1.jpg",
+      "https://example.com/images/plumbing2.jpg"
+    ],
+    "shortTitle": "Plumbing Services",
+    "shortDesc": "We fix leaks, clogs, and install piping with expertise.",
+    "deliveryTime": "2-4 days",
+    "revisionNumber": 1,
+    "features": [
+      "Leak repairs",
+      "Clog removals",
+      "New installations",
+      "Affordable rates"
+    ],
+    "sales": 28
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f8b"
+    },
+    "userID": "67590bcd3a5c1f347d210fab",
+    "title": "Car Mechanic Services - Car Repairs & Maintenance",
+    "description": "Full-service mechanic offering repair and maintenance for all car models.",
+    "totalStars": 4.6,
+    "starNumber": 35,
+    "category": "Mechanic",
+    "price": 120,
+    "cover": "https://example.com/images/lucy2.jpg",
+    "images": [
+      "https://example.com/images/mechanic1.jpg",
+      "https://example.com/images/mechanic2.jpg"
+    ],
+    "shortTitle": "Car Repairs & Maintenance",
+    "shortDesc": "Complete car repairs, from engine diagnostics to oil changes.",
+    "deliveryTime": "1-3 days",
+    "revisionNumber": 2,
+    "features": [
+      "Engine repairs",
+      "Oil changes",
+      "Brake services",
+      "Diagnostics"
+    ],
+    "sales": 22
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f8c"
+    },
+    "userID": "67590bcd3a5c1f347d210fac",
+    "title": "Custom Woodworking - Carpentry Services",
+    "description": "Offering custom carpentry services, from furniture to home decor.",
+    "totalStars": 5,
+    "starNumber": 60,
+    "category": "Carpenter",
+    "price": 250,
+    "cover": "https://example.com/images/susan3.jpg",
+    "images": [
+      "https://example.com/images/carpenter1.jpg",
+      "https://example.com/images/carpenter2.jpg"
+    ],
+    "shortTitle": "Custom Carpentry",
+    "shortDesc": "High-quality woodwork for home and office.",
+    "deliveryTime": "4-7 days",
+    "revisionNumber": 3,
+    "features": [
+      "Custom furniture",
+      "Cabinet making",
+      "Wooden decor",
+      "High-quality wood"
+    ],
+    "sales": 50
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f8d"
+    },
+    "userID": "67590bcd3a5c1f347d210fad",
+    "title": "Professional Cleaning Services",
+    "description": "Efficient and affordable cleaning for homes and offices.",
+    "totalStars": 4.4,
+    "starNumber": 30,
+    "category": "Cleaning",
+    "price": 75,
+    "cover": "https://example.com/images/mike4.jpg",
+    "images": [
+      "https://example.com/images/cleaning1.jpg",
+      "https://example.com/images/cleaning2.jpg"
+    ],
+    "shortTitle": "Home & Office Cleaning",
+    "shortDesc": "Deep cleaning, surface cleaning, and more!",
+    "deliveryTime": "1-2 days",
+    "revisionNumber": 2,
+    "features": [
+      "Surface cleaning",
+      "Deep cleaning",
+      "Office cleaning",
+      "Eco-friendly products"
+    ],
+    "sales": 40
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f8e"
+    },
+    "userID": "67590bcd3a5c1f347d210fae",
+    "title": "Pest Control - Exterminate Bugs & Rodents",
+    "description": "Professional pest control services to keep your space pest-free.",
+    "totalStars": 4.9,
+    "starNumber": 60,
+    "category": "Pest Control",
+    "price": 100,
+    "cover": "https://example.com/images/kim5.jpg",
+    "images": [
+      "https://example.com/images/pest1.jpg",
+      "https://example.com/images/pest2.jpg"
+    ],
+    "shortTitle": "Pest Control Services",
+    "shortDesc": "Effective and safe pest control for homes and offices.",
+    "deliveryTime": "2-3 days",
+    "revisionNumber": 1,
+    "features": [
+      "Rodent control",
+      "Insect extermination",
+      "Eco-friendly",
+      "Guaranteed results"
+    ],
+    "sales": 25
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f8f"
+    },
+    "userID": "67590bcd3a5c1f347d210faf",
+    "title": "Home Appliance Repair & Installation",
+    "description": "Get your home appliances repaired and installed by experts.",
+    "totalStars": 4.6,
+    "starNumber": 50,
+    "category": "Home Appliance Repair",
+    "price": 80,
+    "cover": "https://example.com/images/chris6.jpg",
+    "images": [
+      "https://example.com/images/appliance1.jpg",
+      "https://example.com/images/appliance2.jpg"
+    ],
+    "shortTitle": "Appliance Repair",
+    "shortDesc": "Efficient repair services for all home appliances.",
+    "deliveryTime": "1-2 days",
+    "revisionNumber": 2,
+    "features": [
+      "Fridge repairs",
+      "Washer repairs",
+      "Installation",
+      "Affordable rates"
+    ],
+    "sales": 60
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f90"
+    },
+    "userID": "67590bcd3a5c1f347d210fb0",
+    "title": "Painting & Home Decoration Services",
+    "description": "Transform your space with professional painting and decoration services.",
+    "totalStars": 4.7,
+    "starNumber": 45,
+    "category": "Painting & Decoration",
+    "price": 200,
+    "cover": "https://example.com/images/linda7.jpg",
+    "images": [
+      "https://example.com/images/painting1.jpg",
+      "https://example.com/images/painting2.jpg"
+    ],
+    "shortTitle": "Home Painting & Decoration",
+    "shortDesc": "High-quality painting and decoration to brighten your space.",
+    "deliveryTime": "3-5 days",
+    "revisionNumber": 3,
+    "features": [
+      "Interior painting",
+      "Exterior painting",
+      "Wallpapering",
+      "Design consultation"
+    ],
+    "sales": 18
+  },
+  {
+    "_id": {
+      "$oid": "675907cd3a5c1f347d210f91"
+    },
+    "userID": "67590bcd3a5c1f347d210fb1",
+    "title": "Tech Gadgets & Accessories - Sales & Installation",
+    "description": "Offering a wide variety of tech gadgets, accessories, and installation services.",
+    "totalStars": 4.8,
+    "starNumber": 70,
+    "category": "Tech Gadgets",
+    "price": 120,
+    "cover": "https://example.com/images/james8.jpg",
+    "images": [
+      "https://example.com/images/gadgets1.jpg",
+      "https://example.com/images/gadgets2.jpg"
+    ],
+    "shortTitle": "Tech Gadgets & Accessories",
+    "shortDesc": "Shop for the latest tech gadgets and get them installed easily.",
+    "deliveryTime": "2-4 days",
+    "revisionNumber": 1,
+    "features": [
+      "Tech gadgets",
+      "Smartphones",
+      "Wearables",
+      "Affordable prices"
+    ],
+    "sales": 55
+  }
+]

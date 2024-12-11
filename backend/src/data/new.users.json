@@ -1,0 +1,182 @@
+[
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fa6"
+    },
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "password": "john_doe",
+    "image": "https://createfakeperson.com/data/male/asian/26-35/tumb/avatar-male-asian-26-35-1692642221-tumb-500.jpg",
+    "country": "USA",
+    "phone": "+1234567890",
+    "description": "A regular user who enjoys exploring new things.",
+    "isSeller": false,
+    "createdAt": "2024-12-10T15:00:00Z",
+    "updatedAt": "2024-12-10T15:00:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fa7"
+    },
+    "username": "jane_smith",
+    "email": "jane.smith@example.com",
+    "password": "jane_smith",
+    "image": "https://createfakeperson.com/data/female/asian/19-25/tumb/avatar-female-asian-19-25-1692637480-tumb-500.jpg",
+    "country": "Canada",
+    "phone": "+1987654321",
+    "description": "Loves technology and science.",
+    "isSeller": false,
+    "createdAt": "2024-12-10T15:10:00Z",
+    "updatedAt": "2024-12-10T15:10:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fa8"
+    },
+    "username": "alex_seller1",
+    "email": "alex.seller1@example.com",
+    "password": "alex_seller1",
+    "image": "https://createfakeperson.com/data/male/white/19-25/tumb/avatar-male-white-19-25-1692637378-tumb-500.jpg",
+    "country": "USA",
+    "phone": "+1234567801",
+    "description": "Experienced seller in electronics.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:00:00Z",
+    "updatedAt": "2024-12-10T16:00:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fa9"
+    },
+    "username": "lucy_seller2",
+    "email": "lucy.seller2@example.com",
+    "password": "lucy_seller2",
+    "image": "https://createfakeperson.com/data/female/indian/19-25/tumb/avatar-female-indian-19-25-1692642062-tumb-500.jpg",
+    "country": "USA",
+    "phone": "+1234567802",
+    "description": "Specializes in fashion and accessories.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:05:00Z",
+    "updatedAt": "2024-12-10T16:05:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210faa"
+    },
+    "username": "susan_seller3",
+    "email": "susan.seller3@example.com",
+    "password": "susan_seller3",
+    "image": "https://createfakeperson.com/data/female/middle_eastern/35-50/tumb/avatar-female-middle_eastern-35-50-1692704226-tumb-500.jpg",
+    "country": "Canada",
+    "phone": "+1987654322",
+    "description": "Sells handmade crafts and jewelry.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:10:00Z",
+    "updatedAt": "2024-12-10T16:10:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fab"
+    },
+    "username": "mike_seller4",
+    "email": "mike.seller4@example.com",
+    "password": "mike_seller4",
+    "image": "https://createfakeperson.com/data/male/black/35-50/tumb/avatar-male-black-35-50-1692703923-tumb-500.jpg",
+    "country": "UK",
+    "phone": "+4420329604",
+    "description": "Digital products and software expert.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:15:00Z",
+    "updatedAt": "2024-12-10T16:15:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fac"
+    },
+    "username": "kim_seller5",
+    "email": "kim.seller5@example.com",
+    "password": "kim_seller5",
+    "image": "https://createfakeperson.com/data/male/indian/50/tumb/avatar-male-indian-50-1692694580-tumb-500.jpg",
+    "country": "Germany",
+    "phone": "+491751234567",
+    "description": "Home appliances and gadgets.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:20:00Z",
+    "updatedAt": "2024-12-10T16:20:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fad"
+    },
+    "username": "chris_seller6",
+    "email": "chris.seller6@example.com",
+    "password": "chris_seller6",
+    "image": "https://createfakeperson.com/data/male/indian/12-18/tumb/avatar-male-indian-12-18-1692642298-tumb-500.jpg",
+    "country": "Australia",
+    "phone": "+61412345678",
+    "description": "Sports and fitness equipment.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:25:00Z",
+    "updatedAt": "2024-12-10T16:25:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fae"
+    },
+    "username": "linda_seller7",
+    "email": "linda.seller7@example.com",
+    "password": "linda_seller7",
+    "image": "https://createfakeperson.com/data/female/indian/50/tumb/avatar-female-indian-50-1692637575-tumb-500.jpg",
+    "country": "India",
+    "phone": "+919876543210",
+    "description": "Indian handicrafts and home decor.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:30:00Z",
+    "updatedAt": "2024-12-10T16:30:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210faf"
+    },
+    "username": "james_seller8",
+    "email": "james.seller8@example.com",
+    "password": "james_seller8",
+    "image": "https://createfakeperson.com/data/male/indian/26-35/tumb/avatar-male-indian-26-35-1692641795-tumb-500.jpg",
+    "country": "USA",
+    "phone": "+1234567808",
+    "description": "Tech gadgets and accessories.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:35:00Z",
+    "updatedAt": "2024-12-10T16:35:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fb0"
+    },
+    "username": "ellen_seller9",
+    "email": "ellen.seller9@example.com",
+    "password": "ellen_seller9",
+    "image": "https://createfakeperson.com/data/female/indian/19-25/tumb/avatar-female-indian-19-25-1692637560-tumb-500.jpg",
+    "country": "Canada",
+    "phone": "+1987654329",
+    "description": "Selling organic food products.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:40:00Z",
+    "updatedAt": "2024-12-10T16:40:00Z"
+  },
+  {
+    "_id": {
+      "$oid": "67590bcd3a5c1f347d210fb1"
+    },
+    "username": "steve_seller10",
+    "email": "steve.seller10@example.com",
+    "password": "steve_seller10",
+    "image": "https://createfakeperson.com/data/male/black/50/tumb/avatar-male-black-50-1692641872-tumb-500.jpg",
+    "country": "UK",
+    "phone": "+4420329605",
+    "description": "Books, stationery, and office supplies.",
+    "isSeller": true,
+    "createdAt": "2024-12-10T16:45:00Z",
+    "updatedAt": "2024-12-10T16:45:00Z"
+  }
+]
