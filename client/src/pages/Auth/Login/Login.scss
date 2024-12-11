@@ -1,4 +1,4 @@
-.login {
+/*.login {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,4 +52,103 @@
         margin: auto;
       }
     }
+  }*/
+
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
   }
+  
+  .login form {
+    width: 360px;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login form h1 {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .login form label {
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .login form input,
+  .login form textarea {
+    padding: 15px;
+    border: 1px solid #d8d6d6;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login form input:focus,
+  .login form textarea:focus {
+    border-color: #1dbf73;
+  }
+  
+  .login form button {
+    border: none;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #1dbf73;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login form button:hover {
+    background-color: #17a765;
+  }
+  
+  .login form button:disabled {
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+  }
+  
+  .login form span {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .login form {
+      width: 90%;
+      margin: auto;
+      padding: 30px 15px;
+    }
+  
+    .login form h1 {
+      font-size: 20px;
+    }
+  
+    .login form input,
+    .login form textarea {
+      padding: 12px;
+      font-size: 14px;
+    }
+  
+    .login form button {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  
