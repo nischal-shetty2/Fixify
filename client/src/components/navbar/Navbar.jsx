@@ -176,7 +176,7 @@ const Navbar = () => {
                         </>
                       )}
                       <Link className="link" to="/orders">
-                        Orders
+                        Dashboard
                       </Link>
                       <Link className="link" to="/messages">
                         Messages

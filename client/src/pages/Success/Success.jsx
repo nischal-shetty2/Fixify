@@ -17,7 +17,7 @@ const Success = () => {
       try {
         setTimeout(() => {
           navigate("/orders");
-        }, 5000);
+        }, 2000);
       } catch ({ response }) {
         console.log(response.data.message);
       }
@@ -25,9 +25,9 @@ const Success = () => {
   }, []);
 
   return (
-    <div className="pay-message">
-      Payment successful. You are being redirected to the orders page. Please do
-      not close the page
+    <div className="pay-message text-xl">
+      Payment <strong className=" text-[#1dbf73] ml-2"> successful</strong>. You are
+      being redirected to the orders page. Please do not close the page
     </div>
   );
 };

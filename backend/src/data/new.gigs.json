@@ -8,12 +8,12 @@
     "description": "Expert AC technician offering repair, maintenance, and installation services.",
     "totalStars": 4.5,
     "starNumber": 25,
-    "category": "AC Technician",
+    "category": "ac-technicians",
     "price": 150,
-    "cover": "https://example.com/images/john.jpg",
+    "cover": "https://img.freepik.com/free-photo/low-angle-people-working-with-drill_23-2149366670.jpg?t=st=1733892986~exp=1733896586~hmac=bd9b4307c6108f4ac95371e25cb141b504ee2328871156dd5a3914021828fe6c&w=1060",
     "images": [
-      "https://example.com/images/ac1.jpg",
-      "https://example.com/images/ac2.jpg"
+      "https://img.freepik.com/free-photo/low-angle-people-working-with-drill_23-2149366670.jpg?t=st=1733892986~exp=1733896586~hmac=bd9b4307c6108f4ac95371e25cb141b504ee2328871156dd5a3914021828fe6c&w=1060",
+      "https://img.freepik.com/free-vector/household-renovation-professions-illustration_23-2148677052.jpg?t=st=1733893104~exp=1733896704~hmac=73c89dc4a953a163c519ebb1d20ac54995f9524c512acc4fc9e6e1fd828e298d&w=826"
     ],
     "shortTitle": "AC Repair & Installation",
     "shortDesc": "Reliable and affordable air conditioning services.",
@@ -31,12 +31,12 @@
     "description": "Professional electrician for wiring, installations, and repairs.",
     "totalStars": 4.8,
     "starNumber": 50,
-    "category": "Electrician",
+    "category": "electricians",
     "price": 100,
-    "cover": "https://example.com/images/jane.jpg",
+    "cover": "https://img.freepik.com/free-photo/electrician-builder-with-beard-worker-white-helmet-work-installation-lamps-height-professional-overalls-with-drill-background-repair-site_169016-7328.jpg?t=st=1733893156~exp=1733896756~hmac=c1be9cbc950e4255ddf092d344a249c2bd7e1647948d0dead0658ffa7434d73f&w=740",
     "images": [
-      "https://example.com/images/electrician1.jpg",
-      "https://example.com/images/electrician2.jpg"
+      "https://img.freepik.com/free-photo/electrician-builder-with-beard-worker-white-helmet-work-installation-lamps-height-professional-overalls-with-drill-background-repair-site_169016-7328.jpg?t=st=1733893156~exp=1733896756~hmac=c1be9cbc950e4255ddf092d344a249c2bd7e1647948d0dead0658ffa7434d73f&w=740",
+      "https://img.freepik.com/free-photo/electrician-installing-electricity_1398-1567.jpg?t=st=1733893189~exp=1733896789~hmac=7420fecab0eb456e0a56f39c461243857b3104a79c66e96377e622ef38c002ac&w=360"
     ],
     "shortTitle": "Electrician Services",
     "shortDesc": "Get your home or office wired safely and effectively.",
@@ -59,12 +59,12 @@
     "description": "Experienced plumber available for installation, repairs, and maintenance.",
     "totalStars": 4.7,
     "starNumber": 40,
-    "category": "Plumber",
+    "category": "plumbers",
     "price": 80,
-    "cover": "https://example.com/images/alex1.jpg",
+    "cover": "https://img.freepik.com/free-vector/professional-plumber-service-online-horizontal-isometric-banner-with-two-repairmen-fixing-bathroom-sink-vector-illustration_1284-30481.jpg?t=st=1733893256~exp=1733896856~hmac=00ce9efb3dc3af1fc8b9c6a30cbfe884ec377c18f0c0c3185858ba5c32b93ffe&w=1380",
     "images": [
-      "https://example.com/images/plumbing1.jpg",
-      "https://example.com/images/plumbing2.jpg"
+      "https://img.freepik.com/free-vector/professional-plumber-service-online-horizontal-isometric-banner-with-two-repairmen-fixing-bathroom-sink-vector-illustration_1284-30481.jpg?t=st=1733893256~exp=1733896856~hmac=00ce9efb3dc3af1fc8b9c6a30cbfe884ec377c18f0c0c3185858ba5c32b93ffe&w=1380",
+      "https://img.freepik.com/free-photo/high-angle-woman-working-as-plumber_23-2150746388.jpg?t=st=1733893286~exp=1733896886~hmac=ecaa2649b961e12ae4ccfba46e701813b999e86c1358713b7b5f56ef94b6cc81&w=360"
     ],
     "shortTitle": "Plumbing Services",
     "shortDesc": "We fix leaks, clogs, and install piping with expertise.",
@@ -87,12 +87,12 @@
     "description": "Full-service mechanic offering repair and maintenance for all car models.",
     "totalStars": 4.6,
     "starNumber": 35,
-    "category": "Mechanic",
+    "category": "mechanics",
     "price": 120,
-    "cover": "https://example.com/images/lucy2.jpg",
+    "cover": "https://img.freepik.com/free-vector/flat-car-repair-shop-services-landing-page-template_23-2149585857.jpg?t=st=1733893327~exp=1733896927~hmac=b95d66f21d5f4222e8b4b391c45a505c449ee1619174c0bd76c61006e92ec19e&w=1060",
     "images": [
-      "https://example.com/images/mechanic1.jpg",
-      "https://example.com/images/mechanic2.jpg"
+      "https://img.freepik.com/free-vector/flat-car-repair-shop-services-landing-page-template_23-2149585857.jpg?t=st=1733893327~exp=1733896927~hmac=b95d66f21d5f4222e8b4b391c45a505c449ee1619174c0bd76c61006e92ec19e&w=1060",
+      "https://img.freepik.com/free-photo/repairman-workwear-holding-wrenches-showing-showing-thumb-up-int-workshop_496169-1009.jpg?t=st=1733893362~exp=1733896962~hmac=638bd927ed50486d50b79d875ff0563556038b60b18be8a09a6ea084a8867ec8&w=1060"
     ],
     "shortTitle": "Car Repairs & Maintenance",
     "shortDesc": "Complete car repairs, from engine diagnostics to oil changes.",
@@ -115,12 +115,12 @@
     "description": "Offering custom carpentry services, from furniture to home decor.",
     "totalStars": 5,
     "starNumber": 60,
-    "category": "Carpenter",
+    "category": "carpenters",
     "price": 250,
-    "cover": "https://example.com/images/susan3.jpg",
+    "cover": "https://img.freepik.com/free-photo/carpentry-concept-with-man-working-with-saw_23-2147773340.jpg?t=st=1733893406~exp=1733897006~hmac=2d19f142fb40edd35b466660e28691d20855e82f26a9648194b1011d39a4ab08&w=1380",
     "images": [
-      "https://example.com/images/carpenter1.jpg",
-      "https://example.com/images/carpenter2.jpg"
+      "https://img.freepik.com/free-photo/carpentry-concept-with-man-working-with-saw_23-2147773340.jpg?t=st=1733893406~exp=1733897006~hmac=2d19f142fb40edd35b466660e28691d20855e82f26a9648194b1011d39a4ab08&w=1380",
+      "https://img.freepik.com/free-photo/close-up-male-carpenter-sanding-furniture-with-power-tool-workbench_23-2147944825.jpg?t=st=1733893438~exp=1733897038~hmac=c37e65412560a5eade73cff24323ec1873fd607f5ed45ed3f35eadb01647f607&w=360"
     ],
     "shortTitle": "Custom Carpentry",
     "shortDesc": "High-quality woodwork for home and office.",
@@ -143,12 +143,12 @@
     "description": "Efficient and affordable cleaning for homes and offices.",
     "totalStars": 4.4,
     "starNumber": 30,
-    "category": "Cleaning",
+    "category": "cleaning-and-pest-control",
     "price": 75,
-    "cover": "https://example.com/images/mike4.jpg",
+    "cover": "https://img.freepik.com/free-photo/professional-cleaning-service-person-using-vacuum-cleaner-office_23-2150520631.jpg?t=st=1733893477~exp=1733897077~hmac=47eddd02e0a076bb49b42d9ce44e8eb8594016f1f3018c901ed68808dbcf024d&w=1060",
     "images": [
-      "https://example.com/images/cleaning1.jpg",
-      "https://example.com/images/cleaning2.jpg"
+      "https://img.freepik.com/free-photo/professional-cleaning-service-person-using-vacuum-cleaner-office_23-2150520631.jpg?t=st=1733893477~exp=1733897077~hmac=47eddd02e0a076bb49b42d9ce44e8eb8594016f1f3018c901ed68808dbcf024d&w=1060",
+      "https://img.freepik.com/free-photo/medium-shot-people-cleaning-building_23-2150454565.jpg?t=st=1733893504~exp=1733897104~hmac=238aa85717b46d59c057d33c912431a0aa00bccf46b26070781d531616a66392&w=1060"
     ],
     "shortTitle": "Home & Office Cleaning",
     "shortDesc": "Deep cleaning, surface cleaning, and more!",
@@ -171,12 +171,12 @@
     "description": "Professional pest control services to keep your space pest-free.",
     "totalStars": 4.9,
     "starNumber": 60,
-    "category": "Pest Control",
+    "category": "cleaning-and-pest-control",
     "price": 100,
-    "cover": "https://example.com/images/kim5.jpg",
+    "cover": "https://img.freepik.com/free-photo/full-shot-man-wearing-protective-suit_23-2148926597.jpg?t=st=1733893563~exp=1733897163~hmac=93c71b82e769b6a56155bd2042c77a269f79bb2ead510bd0f7cb6d54570dd237&w=360",
     "images": [
-      "https://example.com/images/pest1.jpg",
-      "https://example.com/images/pest2.jpg"
+      "https://img.freepik.com/free-photo/full-shot-man-wearing-protective-suit_23-2148926597.jpg?t=st=1733893563~exp=1733897163~hmac=93c71b82e769b6a56155bd2042c77a269f79bb2ead510bd0f7cb6d54570dd237&w=360",
+      "https://img.freepik.com/premium-vector/exterminator-spraying-insecticide-pest-control_8071-32341.jpg?w=996"
     ],
     "shortTitle": "Pest Control Services",
     "shortDesc": "Effective and safe pest control for homes and offices.",
@@ -199,12 +199,12 @@
     "description": "Get your home appliances repaired and installed by experts.",
     "totalStars": 4.6,
     "starNumber": 50,
-    "category": "Home Appliance Repair",
+    "category": "home-appliances-repair",
     "price": 80,
-    "cover": "https://example.com/images/chris6.jpg",
+    "cover": "https://img.freepik.com/free-photo/service-maintenance-worker-repairing_23-2149176697.jpg?t=st=1733893646~exp=1733897246~hmac=6decc95985cee7f53f099c9c122b34c606460d197d2d6bba02064043841b027d&w=1060",
     "images": [
-      "https://example.com/images/appliance1.jpg",
-      "https://example.com/images/appliance2.jpg"
+      "https://img.freepik.com/free-photo/service-maintenance-worker-repairing_23-2149176697.jpg?t=st=1733893646~exp=1733897246~hmac=6decc95985cee7f53f099c9c122b34c606460d197d2d6bba02064043841b027d&w=1060",
+      "https://img.freepik.com/free-photo/replacing-lamp-back-side-view-man-plaid-shirt-with-lamp-hand-looking-kitchen_259150-59266.jpg?t=st=1733893679~exp=1733897279~hmac=ecf8c998d06bb7a9385c7f8917b4d4ae837dc4bfd3145faad9aa899e1a89433d&w=1060"
     ],
     "shortTitle": "Appliance Repair",
     "shortDesc": "Efficient repair services for all home appliances.",
@@ -227,12 +227,12 @@
     "description": "Transform your space with professional painting and decoration services.",
     "totalStars": 4.7,
     "starNumber": 45,
-    "category": "Painting & Decoration",
+    "category": "building-paintings",
     "price": 200,
-    "cover": "https://example.com/images/linda7.jpg",
+    "cover": "https://img.freepik.com/free-vector/household-renovation-professions_23-2148676135.jpg?t=st=1733893722~exp=1733897322~hmac=17b572b366f6a3b5fc713b6c2ff1bbcce50736b07a9cf023fb71f29135854c93&w=1060",
     "images": [
-      "https://example.com/images/painting1.jpg",
-      "https://example.com/images/painting2.jpg"
+      "https://img.freepik.com/free-vector/household-renovation-professions_23-2148676135.jpg?t=st=1733893722~exp=1733897322~hmac=17b572b366f6a3b5fc713b6c2ff1bbcce50736b07a9cf023fb71f29135854c93&w=1060",
+      "https://img.freepik.com/free-photo/paralyzed-woman-painting-wall-with-roller-brush-sitting-wheelchair-handicapped-disabled-ill-immobilizes-woman-helping-with-apartment-redecoration-home-construction-while-renovating-im_482257-14146.jpg?t=st=1733893740~exp=1733897340~hmac=38aa7f57cc9fccc88cc63f6adb051147c57d32e489df192ca8683316f929394b&w=1380"
     ],
     "shortTitle": "Home Painting & Decoration",
     "shortDesc": "High-quality painting and decoration to brighten your space.",
@@ -255,12 +255,12 @@
     "description": "Offering a wide variety of tech gadgets, accessories, and installation services.",
     "totalStars": 4.8,
     "starNumber": 70,
-    "category": "Tech Gadgets",
+    "category": "technicians",
     "price": 120,
-    "cover": "https://example.com/images/james8.jpg",
+    "cover": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309652.jpg?t=st=1733893795~exp=1733897395~hmac=3ce3f9921931401186d1b6b014f62e287986fce276d925605a035f1db2ee0b89&w=1060",
     "images": [
-      "https://example.com/images/gadgets1.jpg",
-      "https://example.com/images/gadgets2.jpg"
+      "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309652.jpg?t=st=1733893795~exp=1733897395~hmac=3ce3f9921931401186d1b6b014f62e287986fce276d925605a035f1db2ee0b89&w=1060",
+      "https://img.freepik.com/free-photo/seller-man-mobile-phone-professional-consultant-tech-store-shop-check-new-smart-watches_627829-4979.jpg?t=st=1733893825~exp=1733897425~hmac=e9fb7a2efc425c9052da4ef5db178aa11a62ac3079a08d1bd2055b110075337c&w=1060"
     ],
     "shortTitle": "Tech Gadgets & Accessories",
     "shortDesc": "Shop for the latest tech gadgets and get them installed easily.",

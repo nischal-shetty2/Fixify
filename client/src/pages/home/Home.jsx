@@ -103,7 +103,6 @@ const Home = () => {
               <img src="./media/check.png" alt="check" />
               <h6>Build long-term service relationships</h6>
             </div>
-            <button>Join Our Service Community</button>
           </div>
           <div className="item">
             <img
@@ -113,12 +112,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      <Slide slidesToShow={4}>
-        {projects.map((card) => (
-          <ProjectCard key={card.id} data={card} />
-        ))}
-      </Slide>
     </div>
   );
 };
