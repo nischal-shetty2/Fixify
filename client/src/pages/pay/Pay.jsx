@@ -24,8 +24,8 @@ const Pay = () => {
   }, []);
 
   return (
-    <div className="pay">
-      <h2>Pay Securely with Razorpay</h2>
+    <div className="pay mt-16">
+      <h2 className=" text-2xl">Pay Securely with Razorpay</h2>
       {orderDetails && <RazorpayCheckout orderDetails={orderDetails} />}
     </div>
   );

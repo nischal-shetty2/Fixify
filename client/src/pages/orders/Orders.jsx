@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { axiosFetch } from "../../utils";
 import { useRecoilValue } from "recoil";
 import { userState } from "../../atoms";
-import { Loader } from '../../components';
+import { Loader } from "../../components";
 import "./Orders.scss";
 
 const Orders = () => {
@@ -55,24 +55,31 @@ const Orders = () => {
   return (
     <div className="orders">
       {isLoading ? (
-        <div className="loader"> <Loader /> </div>
+        <div className="loader">
+          {" "}
+          <Loader />{" "}
+        </div>
       ) : error ? (
         "Something went wrong!"
       ) : (
         <div className="container">
-          <div className="title">
-            <h1>Orders</h1>
+          <div className="title  text-4xl mb-8">
+            <h1>Your Orders</h1>
           </div>
           <table>
-            <thead>
-              <tr>
-                <th>Image</th>
-                <th>{user.isSeller ? "Buyer" : "Seller"}</th>
-                <th>Title</th>
-                <th>Price</th>
-                <th>Contact</th>
-              </tr>
-            </thead>
+            {data[0] ? (
+              <thead>
+                <tr>
+                  <th>Image</th>
+                  <th>{user.isSeller ? "Buyer" : "Seller"}</th>
+                  <th>Title</th>
+                  <th>Price</th>
+                  <th>Contact</th>
+                </tr>
+              </thead>
+            ) : (
+              <p className=" text-2xl text-gray-500">No orders</p>
+            )}
             <tbody>
               {data.map((order) => (
                 <tr key={order._id}>

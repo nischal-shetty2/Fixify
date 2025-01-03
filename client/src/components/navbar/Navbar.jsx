@@ -32,6 +32,7 @@ const Navbar = () => {
       setIsLoading(true);
       try {
         const { data } = await axiosFetch.get("/auth/me");
+        console.log(data);
         setUser(data.user);
       } catch ({ response }) {
         localStorage.removeItem("user");
@@ -125,14 +126,16 @@ const Navbar = () => {
             <Link
               to="/#workhiveCommunity"
               className="link"
-              onClick={() => handleScrollTo("workhiveCommunity")}>
+              onClick={() => handleScrollTo("workhiveCommunity")}
+            >
               Fixify Community
             </Link>
             <span>
               <Link
                 to="/#explores"
                 className="link"
-                onClick={() => handleScrollTo("explores")}>
+                onClick={() => handleScrollTo("explores")}
+              >
                 Explore
               </Link>
             </span>
@@ -155,7 +158,8 @@ const Navbar = () => {
                   to="/register"
                   className={`link ${
                     showMenu || pathname !== "/" ? "join-active" : ""
-                  }`}>
+                  }`}
+                >
                   <button>Join</button>
                 </Link>
               )}
@@ -176,7 +180,7 @@ const Navbar = () => {
                         </>
                       )}
                       <Link className="link" to="/orders">
-                        Orders
+                        Dashboard
                       </Link>
                       <Link className="link" to="/messages">
                         Messages

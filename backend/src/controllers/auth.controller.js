@@ -15,11 +15,14 @@ const authRegister = async (request, response) => {
   const ips = list.split(",");
   console.log(request.body);
   try {
-    // const hash = bcrypt.hashSync(password, saltRounds);
-    const hash = password;
-
-    // const { country } = satelize.satelize({ ip: ips[0] }, (error, payload) => payload);
-    console.log("message show");
+    const { country } = satelize.satelize(
+      { ip: ips[0] },
+      (error, payload) => payload
+    );
+    const hash =
+      NODE_ENV == "development"
+        ? password
+        : bcrypt.hashSync(password, saltRounds);
 
     const user = new User({
       username,
@@ -32,7 +35,6 @@ const authRegister = async (request, response) => {
       phone,
     });
 
-    console.log(user);
     await user.save();
 
     return response.status(201).send({
@@ -64,8 +66,11 @@ const authLogin = async (request, response) => {
       throw CustomException("Check username or password!", 404);
     }
 
-    // const match = bcrypt.compareSync(password, user.password);
-    if (user.password) {
+    const match =
+      NODE_ENV === "development"
+        ? true
+        : bcrypt.compareSync(password, user.password);
+    if (match) {
       const { password, ...data } = user._doc;
 
       const token = jwt.sign(
@@ -104,7 +109,7 @@ const authLogin = async (request, response) => {
   }
 };
 
-const authLogout = async (request, response) => {
+const authLogout = async (_, response) => {
   return response
     .clearCookie("accessToken", {
       sameSite: "none",

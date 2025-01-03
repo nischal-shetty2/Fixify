@@ -4,7 +4,7 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const connect = require("./configs/db");
 const PORT = 8080;
-
+const env = process.env.NODE_ENV || "development";
 // Other Route files
 const {
   userRoute,
@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(compression());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:4173"],
+    origin: "*",
     credentials: true,
   })
 );
@@ -41,7 +41,7 @@ app.use("/messages", messageRoute);
 app.use("/reviews", reviewRoute);
 
 // Routes
-app.get("/", (request, response) => {
+app.get("/", (_, response) => {
   response.send("Hello, Topper!");
 });
 
@@ -54,9 +54,12 @@ app.get("/ip", (request, response) => {
 });
 
 app.listen(PORT, async () => {
+  console.log(`Server running in ${env} mode`);
   try {
+    if (env === "development")
+      console.log(`Listening at http://localhost:${PORT}`);
     await connect();
-    console.log(`Listening at http://localhost:${PORT}`);
+    if (env === "development") console.log("Connected to MongoDB");
   } catch ({ message }) {
     console.log(message);
   }

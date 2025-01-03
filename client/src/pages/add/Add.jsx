@@ -113,15 +113,19 @@ const Add = () => {
             </select>
 
             <div className="images">
-              <div className="imagesInputs">
-                <label htmlFor="">Cover Image</label>
+              <div className="imagesInputs space-y-3">
+                <label className=" pr-6" htmlFor="">
+                  Cover Image
+                </label>
                 <input
                   type="file"
                   accept="image/*"
                   onChange={(event) => setCoverImage(event.target.files[0])}
                 />
                 <br />
-                <label htmlFor="">Upload Images</label>
+                <label className=" p-1" htmlFor="">
+                  Add more Images
+                </label>
                 <input
                   type="file"
                   accept="image/*"
@@ -169,7 +173,7 @@ const Add = () => {
               onChange={handleFormCange}
             />
 
-            <label htmlFor="">Revision Number</label>
+            <label htmlFor="">Rework number</label>
             <input
               type="number"
               name="revisionNumber"

@@ -92,11 +92,14 @@ const Register = () => {
         </div>
         <div className="right">
           <p>
-            Already have an account? <Link to="/login">Signin</Link>
+            Already have an account?{" "}
+            <Link className=" text-[#1dbf73]" to="/login">
+              Signin
+            </Link>
           </p>
-          <h1>I want to become a seller</h1>
+          <h1>Want To Become a service provider?</h1>
           <div className="toggle">
-            <label htmlFor="">Activate the seller account</label>
+            <label htmlFor="">Activate service provider account</label>
             <label className="switch">
               <input type="checkbox" name="isSeller" onChange={handleChange} />
               <span className="slider round"></span>
@@ -116,7 +119,8 @@ const Register = () => {
             id=""
             cols="30"
             rows="10"
-            onChange={handleChange}></textarea>
+            onChange={handleChange}
+          ></textarea>
         </div>
       </form>
     </div>
